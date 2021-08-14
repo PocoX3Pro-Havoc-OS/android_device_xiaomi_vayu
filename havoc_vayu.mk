@@ -14,9 +14,8 @@ $(call inherit-product, device/xiaomi/vayu/device.mk)
 # Inherit common HavocOS configurations
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-# GApps
-WITH_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
+# Havoc_Official
+HAVOC_BUILD_TYPE = Official
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
